@@ -11,7 +11,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$87.50",
-        "payment_date": "3/15/2021"
+        "payment_date": "3/15/2021",
+        "number_made" : "3"
       },
     },
     {
@@ -25,7 +26,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$67.50",
-        "payment_date": "4/15/2021"
+        "payment_date": "4/15/2021",
+        "number_made" : "7"
       },
     },
     {
@@ -39,7 +41,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$43.90",
-        "payment_date": "4/19/2021"
+        "payment_date": "4/19/2021",
+        "number_made" : "4"
       },
     },
     {
@@ -53,7 +56,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$65.30",
-        "payment_date": "3/22/2021"
+        "payment_date": "3/22/2021",
+        "number_made" : "6"
       },
     },
     {
@@ -67,7 +71,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$65.30",
-        "payment_date": "3/22/2021"
+        "payment_date": "3/22/2021",
+        "number_made" : "3"
       },
     },
     {
@@ -81,7 +86,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$45.30",
-        "payment_date": "3/07/2021"
+        "payment_date": "3/07/2021",
+        "number_made" : "9"
       },
     },
     {
@@ -95,7 +101,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$65.30",
-        "payment_date": "3/09/2021"
+        "payment_date": "3/09/2021",
+        "number_made" : "8"
       },
     },
     {
@@ -109,7 +116,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$25.30",
-        "payment_date": "3/19/2021"
+        "payment_date": "3/19/2021",
+        "number_made" : "5"
       },
     },
     {
@@ -123,7 +131,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$90.70",
-        "payment_date": "4/19/2021"
+        "payment_date": "4/19/2021",
+        "number_made" : "8"
       },
     },
     {
@@ -137,7 +146,8 @@ const CustomerData = {
       },
       "payment": {
         "amount": "$10.70",
-        "payment_date": "4/12/2021"
+        "payment_date": "4/12/2021",
+        "number_made" : "2"
       },
     }
   ]
