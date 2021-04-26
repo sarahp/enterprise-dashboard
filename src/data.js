@@ -1,7 +1,45 @@
 const CustomerData = {
+  "company": [
+    {
+      "number": "01",
+      "name": "Pepsico",
+      "total_users": "100",
+      "total_payments": "320",
+
+    },
+    {
+      "number": "02",
+      "name": "Southwest Airlines",
+      "total_users": "50",
+      "total_payments": "112",
+
+    },
+    {
+      "number": "03",
+      "name": "Coke",
+      "total_users": "65",
+      "total_payments": "320",
+
+    },
+    {
+      "number": "04",
+      "name": "EA Games",
+      "total_users": "30",
+      "total_payments": "45",
+
+    },
+    {
+      "number": "05",
+      "name": "World of Wonder",
+      "total_users": "87",
+      "total_payments": "234",
+
+    },
+
+  ],
   "users": [
     {
-      "id": "38591",
+      "id": "1",
       "firstName": "Sally",
       "lastName": "Wright",
       "email": "sw@nowhere.ic.kp",
@@ -10,13 +48,13 @@ const CustomerData = {
         "name": "Pepsico"
       },
       "payment": {
-        "amount": "$87.50",
+        "amount": "87",
         "payment_date": "3/15/2021",
         "number_made" : "3"
       },
     },
     {
-      "id": "23407",
+      "id": "2",
       "firstName": "Joe",
       "lastName": "Worther",
       "email": "jw@example.com",
@@ -25,13 +63,13 @@ const CustomerData = {
         "name": "Coke"
       },
       "payment": {
-        "amount": "$67.50",
+        "amount": "67",
         "payment_date": "4/15/2021",
         "number_made" : "7"
       },
     },
     {
-      "id": "55930",
+      "id": "3",
       "firstName": "King",
       "lastName": "Midas",
       "email": "golden@example.com",
@@ -40,13 +78,13 @@ const CustomerData = {
         "name": "Pepsico"
       },
       "payment": {
-        "amount": "$43.90",
+        "amount": "43",
         "payment_date": "4/19/2021",
         "number_made" : "4"
       },
     },
     {
-      "id": "69498",
+      "id": "4",
       "firstName": "Amelia",
       "lastName": "Earhart",
       "email": "daredevil@example.com",
@@ -55,13 +93,13 @@ const CustomerData = {
         "name": "Southwest Airlines"
       },
       "payment": {
-        "amount": "$65.30",
+        "amount": "65",
         "payment_date": "3/22/2021",
         "number_made" : "6"
       },
     },
     {
-      "id": "94139",
+      "id": "5",
       "firstName": "Eliza",
       "lastName": "Pancakes",
       "email": "sims4life@example.com",
@@ -70,13 +108,13 @@ const CustomerData = {
         "name": "Southwest Airlines"
       },
       "payment": {
-        "amount": "$65.30",
+        "amount": "65",
         "payment_date": "3/22/2021",
         "number_made" : "3"
       },
     },
     {
-      "id": "64190",
+      "id": "6",
       "firstName": "Janice",
       "lastName": "Pancakes",
       "email": "sims4EVa@example.com",
@@ -85,13 +123,13 @@ const CustomerData = {
         "name": "EA Games"
       },
       "payment": {
-        "amount": "$45.30",
+        "amount": "45",
         "payment_date": "3/07/2021",
         "number_made" : "9"
       },
     },
     {
-      "id": "79039",
+      "id": "7",
       "firstName": "John",
       "lastName": "Pancakes",
       "email": "sims@example.com",
@@ -100,13 +138,13 @@ const CustomerData = {
         "name": "EA Games"
       },
       "payment": {
-        "amount": "$65.30",
+        "amount": "65",
         "payment_date": "3/09/2021",
         "number_made" : "8"
       },
     },
     {
-      "id": "48971",
+      "id": "8",
       "firstName": "Symone",
       "lastName": "Quarter",
       "email": "finale@example.com",
@@ -115,13 +153,13 @@ const CustomerData = {
         "name": "World of Wonder"
       },
       "payment": {
-        "amount": "$25.30",
+        "amount": "25",
         "payment_date": "3/19/2021",
         "number_made" : "5"
       },
     },
     {
-      "id": "60393",
+      "id": "9",
       "firstName": "Rosé",
       "lastName": "Quarter",
       "email": "finale2@example.com",
@@ -130,13 +168,13 @@ const CustomerData = {
         "name": "World of Wonder"
       },
       "payment": {
-        "amount": "$90.70",
+        "amount": "90",
         "payment_date": "4/19/2021",
         "number_made" : "8"
       },
     },
     {
-      "id": "85643",
+      "id": "10",
       "firstName": "Gotmik",
       "lastName": "Quarter",
       "email": "finale3@example.com",
@@ -145,7 +183,7 @@ const CustomerData = {
         "name": "World of Wonder"
       },
       "payment": {
-        "amount": "$10.70",
+        "amount": "10",
         "payment_date": "4/12/2021",
         "number_made" : "2"
       },

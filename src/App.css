@@ -1,38 +1,71 @@
-.App {
+/* Brand colors
+   Blue #377FEB;
+   Green #60B47C;
+ */
+
+
+header {
+  border-bottom: 10px solid #60B47C;
+  margin-bottom: 50px;
+  display: inline-flex;
+}
+
+img.logo {
+  width: 12%;
+  margin: 20px;
+}
+
+header h2 {
+  margin-left: 3rem;
+  color: #60B47C;
+}
+
+header h2 span {
+  color: #377FEB;
+}
+
+/* Styles for Heads Up Display of data*/
+
+.MuiTable-root {
   text-align: center;
+  margin: 40px 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Main Tables Styles */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-tables {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-tables h2 {
+  margin: 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.company-table h2 {
+  color: #60B47C;
+}
+
+.company-table .MultiDataGrid-root {
+  border: 2px solid #377FEB;
+}
+
+.customer-table h2 {
+  color: #377FEB;
+}
+
+.MuiTable-root.user-info,
+.MuiTable-root.company-info {
+  border: solid 2px #377FEB;
+}
+
+.MuiDataGrid-root {
+  margin: 0 20px;
+  border: 2px solid #60B47C;
+}
+
+footer {
+  text-align: center;
+  margin: 100px;
+  border: solid 1px #377FEB;
 }
