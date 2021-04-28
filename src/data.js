@@ -3,37 +3,41 @@ const CustomerData = {
     {
       "number": "01",
       "name": "Pepsico",
-      "total_users": "100",
-      "total_payments": "320",
+      "total_users": 2,
+      "total_payments": 433,
+      "number_paid": 8,
 
     },
     {
       "number": "02",
       "name": "Southwest Airlines",
-      "total_users": "50",
-      "total_payments": "112",
+      "total_users": 2,
+      "total_payments": 615,
+      "number_paid": 3,
 
     },
     {
       "number": "03",
       "name": "Coke",
-      "total_users": "65",
-      "total_payments": "320",
+      "total_users": 1,
+      "total_payments": 469,
+      "number_paid": 4,
 
     },
     {
       "number": "04",
       "name": "EA Games",
-      "total_users": "30",
-      "total_payments": "45",
+      "total_users": 2,
+      "total_payments": 845,
+      "number_paid": 7,
 
     },
     {
       "number": "05",
       "name": "World of Wonder",
-      "total_users": "87",
-      "total_payments": "234",
-
+      "total_users": 3,
+      "total_payments": 865,
+      "number_paid": 8,
     },
 
   ],
@@ -48,9 +52,9 @@ const CustomerData = {
         "name": "Pepsico"
       },
       "payment": {
-        "amount": "87",
+        "amount": 87,
         "payment_date": "3/15/2021",
-        "number_made" : "3"
+        "number_made" : 3
       },
     },
     {
@@ -63,9 +67,9 @@ const CustomerData = {
         "name": "Coke"
       },
       "payment": {
-        "amount": "67",
+        "amount": 67,
         "payment_date": "4/15/2021",
-        "number_made" : "7"
+        "number_made" : 7
       },
     },
     {
@@ -78,9 +82,9 @@ const CustomerData = {
         "name": "Pepsico"
       },
       "payment": {
-        "amount": "43",
+        "amount": 43,
         "payment_date": "4/19/2021",
-        "number_made" : "4"
+        "number_made" : 4
       },
     },
     {
@@ -93,9 +97,9 @@ const CustomerData = {
         "name": "Southwest Airlines"
       },
       "payment": {
-        "amount": "65",
+        "amount": 65,
         "payment_date": "3/22/2021",
-        "number_made" : "6"
+        "number_made" : 6
       },
     },
     {
@@ -108,9 +112,9 @@ const CustomerData = {
         "name": "Southwest Airlines"
       },
       "payment": {
-        "amount": "65",
+        "amount": 75,
         "payment_date": "3/22/2021",
-        "number_made" : "3"
+        "number_made" : 3
       },
     },
     {
@@ -123,9 +127,9 @@ const CustomerData = {
         "name": "EA Games"
       },
       "payment": {
-        "amount": "45",
+        "amount": 45,
         "payment_date": "3/07/2021",
-        "number_made" : "9"
+        "number_made" : 9
       },
     },
     {
@@ -138,9 +142,9 @@ const CustomerData = {
         "name": "EA Games"
       },
       "payment": {
-        "amount": "65",
+        "amount": 55,
         "payment_date": "3/09/2021",
-        "number_made" : "8"
+        "number_made" : 8
       },
     },
     {
@@ -153,9 +157,9 @@ const CustomerData = {
         "name": "World of Wonder"
       },
       "payment": {
-        "amount": "25",
+        "amount": 25,
         "payment_date": "3/19/2021",
-        "number_made" : "5"
+        "number_made" : 5
       },
     },
     {
@@ -168,9 +172,9 @@ const CustomerData = {
         "name": "World of Wonder"
       },
       "payment": {
-        "amount": "90",
+        "amount": 90,
         "payment_date": "4/19/2021",
-        "number_made" : "8"
+        "number_made" : 8
       },
     },
     {
@@ -183,9 +187,9 @@ const CustomerData = {
         "name": "World of Wonder"
       },
       "payment": {
-        "amount": "10",
+        "amount": 10,
         "payment_date": "4/12/2021",
-        "number_made" : "2"
+        "number_made" : 2
       },
     }
   ]

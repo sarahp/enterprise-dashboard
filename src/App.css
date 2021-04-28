@@ -3,6 +3,13 @@
    Green #60B47C;
  */
 
+@media only screen and (max-width: 1300px) {
+  header h2.num-users-up {
+    display: none;
+  }
+}
+
+
 
 header {
   border-bottom: 10px solid #60B47C;
@@ -16,7 +23,7 @@ img.logo {
 }
 
 header h2 {
-  margin-left: 3rem;
+  margin: 3rem;
   color: #60B47C;
 }
 
@@ -30,16 +37,55 @@ header h2 span {
   text-align: center;
   margin: 40px 10px;
 }
+@media only screen and (max-width: 1300px) {
+.hud-data {
+  font-size: 1.8rem;
+}
+}
+
+@media only screen and (min-width: 1300px) {
+  .hud-data {
+    font-size: 2.7rem;
+  }
+
+}
+
+/* Bar Chart Styles */
+
+.bar-chart h2 {
+  margin-left: 3rem;
+  color: #60B47C;
+}
+
+.recharts-bar {
+  fill: #377FEB;
+}
+
+
 
 
 /* Main Tables Styles */
 
-.main-tables {
-  display: flex;
+/* -----Mobile styles */
+
+@media only screen and (min-width: 1300px) {
+  .main-tables {
+    display: flex;
+  }
+  .main-tables h2 {
+    margin: 0 20px;
+  }
 }
 
-.main-tables h2 {
-  margin: 0 20px;
+@media only screen and (max-width: 1300px) {
+  .company-table h2 {
+    margin: 3.5rem 1.3rem 0.5rem;
+  }
+
+  .customer-table h2 {
+    color: #60B47C;
+    margin:0.4rem 1.3rem 0.5rem;
+  }
 }
 
 .company-table h2 {
@@ -59,7 +105,14 @@ header h2 span {
   border: solid 2px #377FEB;
 }
 
-.MuiDataGrid-root {
+@media only screen and (min-width: 1300px) {
+
+  .MuiDataGrid-root.MuiDataGrid-root.company {
+    width: 80%;
+  }
+}
+
+.MuiDataGrid-root.MuiDataGrid-root {
   margin: 0 20px;
   border: 2px solid #60B47C;
 }

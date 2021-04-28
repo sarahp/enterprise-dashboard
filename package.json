@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/icons": "latest",
     "@material-ui/core": "latest",
     "@material-ui/data-grid": "^4.0.0-alpha.25",
+    "@material-ui/icons": "latest",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "clsx": "latest",
+    "prop-types": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1",
-    "prop-types": "latest",
-    "clsx": "latest"
+    "recharts": "^2.0.9",
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

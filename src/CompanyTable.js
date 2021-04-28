@@ -20,19 +20,20 @@ const columns = [
     { field: 'id', headerName: 'ID', width: 70 },
     { field: 'name', headerName: 'Name', width: 130 },
     { field: 'total_users', headerName: 'Total Users', type: 'number', width: 130},
-    { field: 'number_payments', headerName: 'Number of Payments', type: 'number', width: 200, ...usdPrice},
+    { field: 'number_payments', headerName: 'Total Paid', type: 'number', width: 300, ...usdPrice},
+    { field: 'number_paid', headerName: '# of Payments', type: 'number', width: 130}
 ];
 
 
 
 export default function CompanyTable() {
     return (
-        <div className='company-table' style={{ height: 400, width: '80%' }}>
+        <div className='company-table' style={{ height: 400, width: '100%' }}>
             <h2>Perpay Companies</h2>
             <DataGrid
-                // getRowId={(row) => CustomerData.users.map(customer => customer.id)}
+                className="company"
                 rows={CustomerData.company.map(company => {
-                    return {id: company.number, name: company.name, total_users: company.total_users, number_payments: company.total_payments}
+                    return {id: company.number, name: company.name, total_users: company.total_users, number_payments: company.total_payments, number_paid: company.number_paid}
                     },
                     )} columns={columns} autoPageSize={true} />
 
