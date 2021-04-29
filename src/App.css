@@ -50,7 +50,33 @@ header h2 span {
 
 }
 
+/*----Chart Styles */
+
+@media only screen and (min-width: 930px) {
+
+  .charts {
+  display: flex;
+  }
+
+  .bar-chart {
+    width: 37vw;
+  }
+
+  .company-pie h2 {
+    margin-left: 14rem;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .charts {
+    display: none;
+  }
+}
+
 /* Bar Chart Styles */
+
+
 
 .bar-chart h2 {
   margin-left: 3rem;
@@ -61,6 +87,25 @@ header h2 span {
   fill: #377FEB;
 }
 
+.bar-chart .recharts-wrapper {
+  margin-top: 5rem;
+}
+
+/* Pie Chart Styles */
+
+.company-pie {
+  width: 50vw;
+}
+
+.company-pie h2 {
+  color: #60B47C;
+}
+
+@media only screen and (max-width: 930px) {
+  .company-pie h2 {
+    margin-left: 3rem;
+  }
+}
 
 
 

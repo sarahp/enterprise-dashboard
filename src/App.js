@@ -6,6 +6,7 @@ import CustomerData from "./data";
 import CustomerTable from "./CustomerTable";
 import CompanyTable from "./CompanyTable";
 import Chart from "./Chart";
+import CompanyPie from "./PieChart";
 
 
 const App = () => {
@@ -58,12 +59,16 @@ const App = () => {
                 </TableBody>
             </Table>
         </header>
+        <main>
+            <div className="charts">
+            <Chart />
+            <CompanyPie />
+            </div>
 
-        <Chart />
-
-        <main className="main-tables">
+            <div className="main-tables">
             <CustomerTable />
             <CompanyTable />
+            </div>
         </main>
 
         <footer>
