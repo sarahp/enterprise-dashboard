@@ -5,8 +5,8 @@ import Logo from "./images/logo.svg";
 import CustomerData from "./data";
 import CustomerTable from "./CustomerTable";
 import CompanyTable from "./CompanyTable";
-import Chart from "./Chart";
-import CompanyPie from "./PieChart";
+import UsersChart from "./UsersChart";
+import CompanyPie from "./CompaniesChart";
 
 
 const App = () => {
@@ -61,7 +61,7 @@ const App = () => {
         </header>
         <main>
             <div className="charts">
-            <Chart />
+            <UsersChart />
             <CompanyPie />
             </div>
 
