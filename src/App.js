@@ -73,7 +73,8 @@ const App = () => {
 
         <footer>
             <Typography className="footer-menu">
-                <Button href="#">
+                <Button href="https://www.youtube.com/watch?v=dPGirRuLWmw" target="_blank"
+                        rel="noopener noreferrer">
                     Dashboard Demo
                 </Button>
                 <Button href="#">
