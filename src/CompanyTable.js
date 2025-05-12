@@ -1,42 +1,44 @@
 import * as React from 'react';
-import { DataGrid } from '@material-ui/data-grid';
+import { Table, TableBody, TableCell, TableHead, TableRow, Paper } from '@material-ui/core';
 import CustomerData from "./data";
-
 
 const currencyFormatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
 });
 
-const usdPrice = {
-    type: 'number',
-    width: 130,
-    valueFormatter: ({ value }) => currencyFormatter.format(Number(value)),
-    cellClassName: 'font-tabular-nums',
-};
+const formatCurrency = (value) => currencyFormatter.format(Number(value));
 
-
-const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'name', headerName: 'Name', width: 130 },
-    { field: 'total_users', headerName: 'Total Users', type: 'number', width: 130},
-    { field: 'number_payments', headerName: 'Total Paid', type: 'number', width: 300, ...usdPrice},
-    { field: 'number_paid', headerName: '# of Payments', type: 'number', width: 130}
-];
-
-
-
-export default function CompanyTable() {
+const CompanyTable = () => {
     return (
-        <div className='company-table' style={{ height: 400, width: '100%' }}>
+        <div className='company-table' style={{ width: '100%' }}>
             <h2>Perpay Companies</h2>
-            <DataGrid
-                className="company"
-                rows={CustomerData.company.map(company => {
-                    return {id: company.number, name: company.name, total_users: company.total_users, number_payments: company.total_payments, number_paid: company.number_paid}
-                    },
-                    )} columns={columns} autoPageSize={true} />
-
+            <Paper>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>ID</TableCell>
+                            <TableCell>Name</TableCell>
+                            <TableCell align="right">Total Users</TableCell>
+                            <TableCell align="right">Total Paid</TableCell>
+                            <TableCell align="right"># of Payments</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {CustomerData.company.map((company) => (
+                            <TableRow key={company.number}>
+                                <TableCell>{company.number}</TableCell>
+                                <TableCell>{company.name}</TableCell>
+                                <TableCell align="right">{company.total_users}</TableCell>
+                                <TableCell align="right">{formatCurrency(company.total_payments)}</TableCell>
+                                <TableCell align="right">{company.number_paid}</TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+            </Paper>
         </div>
     );
 }
+
+export default CompanyTable;

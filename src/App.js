@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import {Table, TableBody, TableRow, Typography, Button} from "@material-ui/core";
-import Logo from "./images/logo.svg";
+import Logo from "./images/logo.png";
 import CustomerData from "./data";
 import CustomerTable from "./CustomerTable";
 import CompanyTable from "./CompanyTable";
@@ -40,7 +40,7 @@ const App = () => {
     <div className="App">
 
         <header>
-            <img className="logo" src={Logo} alt="Logo, green and blue letters spell perpay." />
+            <img className="logo" src={Logo} alt="Logo, rainbow colors with processor says ExampleDashboards." />
             <h2 className="num-users-up">Number of Users up <span>6%</span> over past month</h2>
             <Table className="heads-up">
                 <TableBody>

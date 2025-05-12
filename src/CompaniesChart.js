@@ -23,9 +23,9 @@ const CompanyPie = () => {
             <div className="company-pie">
             <h2>Payments by Company</h2>
             <PieChart width={800} height={400}>
-                <Pie data={data01} outerRadius={150}>
+                <Pie data={data01} dataKey="value" nameKey="name" outerRadius={150}>
                     {data01.map((entry, index) => (
-                        <Cell fill={colors[index]} />
+                        <Cell key={`cell-${index}`} fill={colors[index]} />
                     ))}
                 </Pie>
                 <Tooltip />
