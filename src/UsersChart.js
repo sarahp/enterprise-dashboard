@@ -1,5 +1,5 @@
 import React from "react";
-import { BarChart, Bar, XAxis, YAxis, Cell } from "recharts";
+import { BarChart, Bar, XAxis, YAxis } from "recharts";
 import CustomerData from "./data";
 
 

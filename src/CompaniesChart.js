@@ -1,6 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import { Cell, PieChart, Pie, Legend, Tooltip } from "recharts";
+import { Cell, PieChart, Pie, Tooltip } from "recharts";
 import CustomerData from "./data";
 
 const data01 = CustomerData.company.map(company => ({name: company.name, value: company.total_payments}));
