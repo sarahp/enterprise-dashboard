@@ -1,6 +1,6 @@
 /* Brand colors
-   Blue #377FEB;
-   Green #60B47C;
+   Blue #00c1f3;
+   Purple #a862ff;
  */
 
 @media only screen and (max-width: 1300px) {
@@ -12,7 +12,7 @@
 
 
 header {
-  border-bottom: 10px solid #60B47C;
+  border-bottom: 10px solid rgb(168, 98, 255);
   margin-bottom: 50px;
   display: inline-flex;
 }
@@ -24,11 +24,11 @@ img.logo {
 
 header h2 {
   margin: 3rem;
-  color: #60B47C;
+  color: rgb(168, 98, 255);
 }
 
 header h2 span {
-  color: #377FEB;
+  color: rgb(0, 193, 243);
 }
 
 /* Styles for Heads Up Display of data*/
@@ -80,11 +80,11 @@ header h2 span {
 
 .bar-chart h2 {
   margin-left: 3rem;
-  color: #60B47C;
+  color: rgb(168, 98, 255);
 }
 
 .recharts-bar {
-  fill: #377FEB;
+  fill: rgb(0, 193, 243);
 }
 
 .bar-chart .recharts-wrapper {
@@ -98,7 +98,7 @@ header h2 span {
 }
 
 .company-pie h2 {
-  color: #60B47C;
+  color: rgb(168, 98, 255);
 }
 
 @media only screen and (max-width: 930px) {
@@ -128,26 +128,26 @@ header h2 span {
   }
 
   .customer-table h2 {
-    color: #60B47C;
+    color: rgb(168, 98, 255);
     margin:0.4rem 1.3rem 0.5rem;
   }
 }
 
 .company-table h2 {
-  color: #60B47C;
+  color: rgb(168, 98, 255);
 }
 
 .company-table .MultiDataGrid-root {
-  border: 2px solid #377FEB;
+  border: 2px solid rgb(0, 193, 243);
 }
 
 .customer-table h2 {
-  color: #377FEB;
+  color: rgb(0, 193, 243);
 }
 
 .MuiTable-root.user-info,
 .MuiTable-root.company-info {
-  border: solid 2px #377FEB;
+  border: solid 2px rgb(0, 193, 243);
 }
 
 @media only screen and (min-width: 1300px) {
@@ -159,11 +159,11 @@ header h2 span {
 
 .MuiDataGrid-root.MuiDataGrid-root {
   margin: 0 20px;
-  border: 2px solid #60B47C;
+  border: 2px solid rgb(168, 98, 255);
 }
 
 footer {
   text-align: center;
   margin: 100px;
-  border: solid 1px #377FEB;
+  border: solid 1px rgb(0, 193, 243);
 }

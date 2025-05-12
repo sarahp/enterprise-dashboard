@@ -6,15 +6,15 @@ const data01 = CustomerData.company.map(company => ({name: company.name, value: 
 
 
 const colors = [
-    "#70B0FA",
-    "#3D6BD4",
-    "#3D36B2",
-    "#7DEBD9",
-    "#00A7BD",
-    "#017991",
-    "#C996BF",
-    "#850A4D",
-    "#600336"
+    "#ff8035",  // bright orange
+    "#f548b5",  // vibrant pink
+    "#00c1f3",  // sky blue
+    "#a862ff",  // purple
+    "#00f5b1",  // aqua green
+    "#009245",  // medium green
+    "#33b5ff",  // light blue
+    "#007eff",  // strong blue
+    "#f28d00"   // orange-yellow
 ];
 
 const CompanyPie = () => {

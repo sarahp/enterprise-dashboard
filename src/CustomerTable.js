@@ -12,7 +12,7 @@ const CustomerTable = () => {
 
     return (
         <div className='customer-table' style={{ width: '100%' }}>
-            <h2>Perpay Users</h2>
+            <h2>Users</h2>
             <Paper>
                 <Table>
                     <TableHead>

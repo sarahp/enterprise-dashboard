@@ -75,7 +75,7 @@ const App = () => {
             <Typography className="footer-menu">
                 <Button href="https://www.youtube.com/watch?v=dPGirRuLWmw" target="_blank"
                         rel="noopener noreferrer">
-                    Dashboard Demo
+                    Dashboard Walkthrough Video
                 </Button>
                 <Button href="#">
                     Marketing Dashboard

@@ -12,7 +12,7 @@ const formatCurrency = (value) => currencyFormatter.format(Number(value));
 const CompanyTable = () => {
     return (
         <div className='company-table' style={{ width: '100%' }}>
-            <h2>Perpay Companies</h2>
+            <h2>Companies</h2>
             <Paper>
                 <Table>
                     <TableHead>
